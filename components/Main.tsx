@@ -57,7 +57,7 @@ export default function Home() {
         }
       }, 1000)
     }
-  }, [interval])
+  },[interval] )
 
   async function login() {
     if (!sdkRef.current) {
